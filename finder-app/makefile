@@ -16,7 +16,7 @@ writer:
 	${CC} ${CFLAGS} ${INCLUDES} -o $@ ${OBJS} ${LIBS}
 
 clean:
-	-rm -f *.o core *.core writer
+	-rm -f *.o core *.core
 
 .c.o:
 	${CC} ${CFLAGS} ${INCLUDES} -c $<
